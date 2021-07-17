@@ -1,3 +1,4 @@
+import { ForgotPasswordComponent } from './views/auth/forgot-password/forgot-password.component';
 import { ProjectModule } from './views/admin/project/project.module';
 import { BrowserModule } from "@angular/platform-browser";
 import { NgModule } from "@angular/core";
@@ -90,6 +91,7 @@ import { RouterModule } from "@angular/router";
     IndexComponent,
     LandingComponent,
     ProfileComponent,
+    ForgotPasswordComponent
   ],
   imports: [BrowserModule, AppRoutingModule,ProjectModule, BrowserAnimationsModule,MatFormFieldModule,MatInputModule,FormsModule, ReactiveFormsModule,RouterModule ],
   providers: [],

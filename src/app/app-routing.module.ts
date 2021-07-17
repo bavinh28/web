@@ -1,3 +1,4 @@
+import { ForgotPasswordComponent } from './views/auth/forgot-password/forgot-password.component';
 import { ProjectDetailComponent } from './views/admin/project/project-detail/project-detail.component';
 import { ReportComponent } from './views/admin/report/report.component';
 import { IssuesComponent } from './views/admin/issues/issues.component';
@@ -52,6 +53,7 @@ const routes: Routes = [
     children: [
       { path: "login", component: LoginComponent },
       { path: "register", component: RegisterComponent },
+      { path: "forgotpassword", component: ForgotPasswordComponent },
       { path: "", redirectTo: "login", pathMatch: "full" },
     ],
   },
